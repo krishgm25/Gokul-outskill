@@ -103,5 +103,10 @@ def main():
 
 if __name__ == "__main__":
     print('starting services')
+<<<<<<< HEAD:Week1/Day_2/search_engine.py
     # main()
     uvicorn.run(app, host="0.0.0.0", port=9321)
+=======
+    main()
+    uvicorn.run(app, host="0.0.0.0", port=9321)
+>>>>>>> 577b060acfbf20da7a21578d28928307afdc7637:Week1/Day_2/3_search_engine.py
